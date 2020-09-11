@@ -1,27 +1,25 @@
 # GuiaRestaurantes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+El fin de este proyecto es para fines educativos, está incompleto para que los estudiaste practiquen.
 
-## Development server
+## Actividades a realizar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Lo primero es descargas las fuentes de este proyecto.
+2. Instalamos las dependencias con `npm install`.
+3. Levantamos el servidor de desarrollo con `ng serve -o`.
+4. Realizar el objetivo del ejercicio.
 
-## Code scaffolding
+## Objetivo del proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Estamos creado un guía de restaurantes en el cual colocamos el nombre y la ciudad donde se encuentra dicho restaurante. De tal modo que al llenar los campos y presionar el botón "agregar" se incluirá en la lista.
 
-## Build
+## Presentación
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Las fuentes serán revisadas desde github o stackblitz.
 
-## Running unit tests
+## Actividades extra (más puntos)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Validar que los campos estén llenos.
+- Al estar ambos campos llenos y presionar <kbd>enter</kbd> se agregue.
+- Validar que el mismo restaurante no exista.
