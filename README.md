@@ -23,3 +23,4 @@ Las fuentes serán revisadas desde github o stackblitz.
 - Validar que los campos estén llenos.
 - Al estar ambos campos llenos y presionar <kbd>enter</kbd> se agregue.
 - Validar que el mismo restaurante no exista.
+- Ordenar descendente (el ultimo que agrego debe estar primero)
